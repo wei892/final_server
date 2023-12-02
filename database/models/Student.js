@@ -23,9 +23,9 @@ const Student = db.define("student", {
     allowNull: false
   },
 
-  imageURL: {
+  imageUrl: {
     type: Sequelize.STRING,
-    defaultValue: "https://cdn-icons-png.flaticon.com/512/2784/2784403.png",
+    defaultValue: "https://static.vecteezy.com/system/resources/previews/028/754/338/original/graduate-student-3d-icon-illustration-png.png",
   },
 
   gpa: {
